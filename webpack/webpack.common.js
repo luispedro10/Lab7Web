@@ -5,12 +5,28 @@ module.exports = {
   entry: {
     main: './src/paginaMain.js',
     popular: './src/popular.js',
+    story:'./src/story.js',
+    new:'./src/nuevos-lanzamientos.js'
+
   },
   module: {
     rules: [
       {
         test: /\.s[ac]ss$/i,
         use: [MiniCssExtractPlugin.loader, 'css-loader', 'sass-loader'],
+      },
+      {
+        test: /\.(png|jpe?g|gif|svg)$/i,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: '[name].[ext]',
+              outputPath: 'images',
+              publicPath: 'images',
+            },
+          },
+        ],
       },
     ],
   },

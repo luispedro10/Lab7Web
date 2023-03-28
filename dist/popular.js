@@ -1,0 +1,1 @@
+(()=>{"use strict";window.addEventListener("load",(()=>{const e=document.querySelector("ul");e&&e.querySelectorAll("li").forEach((e=>{e.addEventListener("click",(t=>{t.preventDefault();const o=e.querySelector("a");setTimeout((()=>{window.location.href=o.href}),500)}))}))}))})();
