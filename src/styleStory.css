@@ -1,0 +1,47 @@
+div {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  padding: 20px;
+}
+div h1 {
+  font-size: 36px;
+  margin: 0 0 20px;
+  text-align: center;
+}
+div p {
+  margin: 0 0 20px;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: justify;
+}
+div ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+div ul li {
+  margin-bottom: 10px;
+}
+div ul li a {
+  display: block;
+  text-decoration: none;
+  color: #333;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+div ul li a:hover {
+  background-color: #333;
+  color: #fff;
+}
+div audio {
+  display: block;
+  margin-top: 20px;
+  width: 100%;
+}
+div audio::-webkit-media-controls-panel {
+  background-color: #333;
+}
+div audio::-webkit-media-controls-play-button, div audio::-webkit-media-controls-pause-button, div audio::-webkit-media-controls-mute-button, div audio::-webkit-media-controls-volume-slider-container, div audio::-webkit-media-controls-timeline-container {
+  filter: invert(1);
+}/*# sourceMappingURL=styleStory.css.map */
