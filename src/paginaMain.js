@@ -1,4 +1,5 @@
 import './styleMain.scss';
+import '@babel/polyfill';
 window.addEventListener('load', () => {
   const header = document.querySelector('header');
   const h1 = header ? header.querySelector('h1') : null;
